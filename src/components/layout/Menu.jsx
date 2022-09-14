@@ -13,7 +13,19 @@ export default function Menu(props) {
                     </li>
 
                     <li>
+                        <Link to="/param/123">Param #01</Link>
+                    </li>
+
+                    <li>
+                        <Link to="/param/legal">Param #02</Link>
+                    </li>
+
+                    <li>
                         <Link to="/About">About</Link>
+                    </li>
+
+                    <li>
+                        <Link to="/notExist">NotExist</Link>
                     </li>
                 </ul>
             </nav>
