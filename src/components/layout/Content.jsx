@@ -4,7 +4,7 @@ import React from "react";
 export default function Content(props) { 
     return (
         <main className="Content">
-            Componente Content
+            <h1>Componente Content</h1>
         </main>
     )
 }
